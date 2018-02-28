@@ -1,0 +1,94 @@
+/* Pricing table
+------------------------------------
+*/
+.pricing {
+  float: left;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px; }
+
+.pricing_type {
+  position: relative;
+  margin-bottom: 15px; }
+  .pricing_type ul {
+    text-align: center;
+    border: 1px solid rgba(141, 145, 150, 0.2);
+    margin: 0;
+    border-radius: 4px;
+    background-color: rgba(141, 145, 150, 0.02); }
+  .pricing_type .price_header {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 20px 20px;
+    border-bottom: 1px solid rgba(141, 145, 150, 0.2); }
+  .pricing_type .price {
+    font-size: 32px;
+    line-height: 25px;
+    font-weight: 700;
+    padding: 15px;
+    border-bottom: 1px solid rgba(141, 145, 150, 0.2); }
+    .pricing_type .price span {
+      font-size: 14px;
+      line-height: 12px;
+      font-weight: 400;
+      color: #1875bb; }
+    .pricing_type .price p {
+      padding: 15px 15px 0px;
+      margin: 0px; }
+  .pricing_type .item {
+    color: #a8abae;
+    padding: 15px 7px;
+    border-bottom: 1px solid rgba(141, 145, 150, 0.2);
+    text-align: center;
+    font-size: 13px;
+    text-transform: capitalize; }
+    .pricing_type .item i {
+      margin-right: 5px; }
+    .pricing_type .item.listed {
+      color: #343b45;
+      border-bottom: 1px solid rgba(24, 117, 187, 0.2);
+      background-color: #e6f2fc; }
+    .pricing_type .item.up1x {
+      border-bottom: 1px solid rgba(24, 117, 187, 0.25);
+      background-color: #d8ebfa; }
+    .pricing_type .item.up2x {
+      border-bottom: 1px solid rgba(24, 117, 187, 0.3);
+      background-color: #cae5f8; }
+    .pricing_type .item.up3x {
+      border-bottom: 1px solid rgba(24, 117, 187, 0.35);
+      background-color: #bddef7; }
+    .pricing_type .item:last-child {
+      border-bottom: none; }
+  .pricing_type .select {
+    padding: 0 20px; }
+    .pricing_type .select .checkbox label:after {
+      text-align: left; }
+
+.jumbotron .cover-photo {
+  height: 150px; }
+  .jumbotron .cover-photo:after {
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    background: -webkit-radial-gradient(rgba(255, 255, 255, 0.2) 10%, rgba(24, 117, 187, 0.4) 100%);
+    background: radial-gradient(rgba(255, 255, 255, 0.2) 10%, rgba(24, 117, 187, 0.4) 100%);
+    position: absolute; }
+
+.jumbotron .cover-headline {
+  position: absolute;
+  bottom: 50px;
+  width: 100%; }
+
+
+
+.jumbotron {
+    padding: 0 !important;
+}
+.jumbotron .cover-photo img {
+    display: block;
+    width: 100%;
+}
+
+
+
